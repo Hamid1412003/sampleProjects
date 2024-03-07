@@ -1,3 +1,15 @@
 [submodule "ExpressFull/React/express-app"]
 	path = ExpressFull/React/express-app
 	url = https://github.com/Hamid1412003/sampleProjects.git
+[submodule "ExpressFull/React/express-react"]
+	path = ExpressFull/React/express-react
+	url = https://github.com/Hamid1412003/sampleProjects.git
+[submodule "ExpressFull/React/my-app"]
+	path = ExpressFull/React/my-app
+	url = https://github.com/Hamid1412003/sampleProjects.git
+[submodule "Training-Admin-UI"]
+	path = Training-Admin-UI
+	url = https://github.com/Hamid1412003/sampleProjects.git
+[submodule "redux-prj/shopping-app/Redux-Shopping-Cart-App"]
+	path = redux-prj/shopping-app/Redux-Shopping-Cart-App
+	url = https://github.com/Hamid1412003/sampleProjects.git

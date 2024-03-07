@@ -1,0 +1,248 @@
+/* body{
+    background-color: rgb(231, 231, 231);
+}
+
+input{
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+} */
+
+/* main-contrainer */
+/* .main-contrainer{
+    background-color: rgb(162, 52, 133);
+    width: 90%;
+    height: 100vh;
+    border: 2px solid #972323;
+    border-radius: 7px;
+}
+h1{
+    background-color: aquamarine;
+    margin-left: 45%;
+}
+.row-1{
+    background-color: rgb(212, 190, 233);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    gap: 20px;
+}
+.required{
+    color: red;
+}
+.row-2{
+    background-color: tomato;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: bold;
+} */
+/* Full Name input box  */
+/* #fullName{
+    width: 699px;
+} */
+/* thrid row */
+/* .row-3{
+    margin-top: 30px;
+    display: flex;
+    gap: 300px;
+
+} */
+/* fourth row */
+/* .row-4{
+    margin-top: 30px;
+    display: flex;
+    gap: 230px;
+
+}
+
+.row-5{
+    margin-top: 10px;
+    display: flex;
+    gap: 210px;
+
+}
+#para1{
+    color: red;
+} */
+
+*{
+    margin: 0;
+}
+.main-contrainer{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    background-color: #f3f4f5;
+    border: solid 2px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+    margin-top:30px ;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    background-color: rgb(201, 114, 22);
+    color: white;
+    width: 50%;
+}
+.formdesign{
+    color: green;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+.row-2{
+    color: green;
+    background-color: rgb(56, 4, 56);
+    color: white;
+    width: 33%;
+}
+#error{
+    color: red;
+}
+#fullName{
+    margin-left: 10px;
+}
+#dob{
+    width: 165px;
+    height: 20px;
+    margin-left: 48px;
+}
+.em{
+    margin-left: 42px;
+}
+.row-3{
+    color: green;
+    display: flex;
+    gap: 4%;
+}
+.col-2-3{
+    margin-left: 60px;
+}
+#age{
+    margin-left: 10px;
+    width: 30px;
+}
+.col-1-4{
+    color: green;
+}
+.col-2-4{
+    color: green;
+    margin-top: 20px;
+}
+#mobile{
+    margin-left: 7px;
+}
+.row-5{
+    color: green;
+    display: flex;
+    gap: 2%;
+}
+#ps{
+    margin-left: 20px;
+}
+#bt{
+    
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(27, 23, 23);
+    color: white;
+    border-radius: 5px;
+}
+
+
+  /* pwd */
+
+
+  
+.wrapper{
+    /* background: #fff; */
+    max-width: 300px;
+  }
+  .input-box{
+    position: relative;
+    height: 40px;
+    margin: 14px 0;
+  }
+  .input-box input{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 40px 0 16px;
+    border: 2px solid lightgreen;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  .input-box input:focus,
+  .input-box input:valid{
+    border-color: #4070F4;
+  }
+  .input-box i,
+  .input-box label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a6a6a6;
+    transition: all 0.3s ease;
+  }
+  .input-box label{
+    left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #fff;
+    padding: 0 6px;
+    pointer-events: none;
+  }
+  .input-box input:focus ~ label,
+  .input-box input:valid ~ label{
+    top: 0;
+    font-size: 14px;
+    color: #4070F4;
+  }
+  .input-box i{
+    right: 15px;
+    cursor: pointer;
+    padding: 8px;
+  }
+  .alert{
+    display: flex;
+    align-items: center;
+    margin-top: -13px;
+  }
+  .alert .error{
+    color: #D93025;
+    font-size: 18px;
+    display: none;
+    margin-right: 8px;
+  }
+   .text{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #a6a6a6;
+  }
+  .input-box.button input{
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    background: #a5b0ce;
+    cursor: not-allowed;
+  }
+  .input-box.button input.active:hover{
+    background: #25272c;
+    cursor: pointer;
+  }
+  

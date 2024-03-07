@@ -1,0 +1,15 @@
+#edt-icon {
+    height: 33px;
+}
+
+#dlt-icon {
+    height: 30px;
+
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+}

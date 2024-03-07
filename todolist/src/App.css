@@ -1,0 +1,42 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    height: 100%;
+    width: 500px;
+    background-color: rgb(101, 6, 101);
+    border: solid 5px goldenrod;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 5%;
+}
+
+.todo {
+    color: aliceblue;
+}
+
+.bt {
+    background-color: gray;
+    color: aliceblue;
+    height: 30px;
+    font-size: 20px;
+}
+
+.inp {
+    height: 30px;
+    font-size: 16px;
+}
+
+.table {
+    width: 80%;
+    height: 80%;
+    margin: 30px;
+    background-color: aliceblue;
+}

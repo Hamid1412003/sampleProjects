@@ -1,0 +1,18 @@
+syntax = "proto3";
+ 
+service CustomerService {
+    rpc createCustomer(customerRequest) returns (customerId){}
+ 
+}
+ 
+ 
+message customerRequest{
+    string name = 1;
+    string email = 2;
+    string mobile = 3;
+    string location = 4;
+ 
+}
+message customerId{
+    int32 id = 1;
+}
